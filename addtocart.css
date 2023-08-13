@@ -2,41 +2,42 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family: ';popins', sans-script;
+font-family: 'poppins', sans-serif;
+font-size: 18px;
 }
-.body{
+body{
     display:flex;
-    align-items:left;
-    justify-content: left;
+    align-items:center;
+    justify-content: center;
     flex-direction: column;
 }
 .header{
-    height: 90px;
-    width: 80%;
-    background-color: goldenrod;
-    border-radius: 4px;
-    margin: 40px 0px;
+    height: 80px;
+    width: 70%;
+    background-color: pink;
+    border-radius: 3px;
+    margin: 30px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px;
 }
 .header.logo{
     font: size 30px;
     font-weight:bold;
-    color:aliceblue
+    color: white
 }
 .cart{
     display: flex;
     background-color:white;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 11px;
-   border-radius: 4px;
-   width: 90px;
+    padding: 7px 10px;
+   border-radius: 3px;
+   width: 80px;
 }
 .fa-solid{
-   color: gold;
+   color: goldenrod;
 }
 .cart p{
     height: 24px;
@@ -44,8 +45,8 @@ font-family: ';popins', sans-script;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 24px;
-    background-color: gold;
+    border-radius: 22px;
+    background-color: goldenrod;
     color: white; 
 }
 .container{
@@ -54,33 +55,32 @@ font-family: ';popins', sans-script;
     margin-bottom: 30px;
 }
 #root{
-    width: 60%;
-    display:grid;
-    grid-template-columns:repeat(2, 1fr);
+    width: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
 .sidebar{
     width: 40px;
-    border: radius: 5px;
+    border-radius: 5px;
     background-color: #eee;
     margin-left: 20px;
-    padding: 20px;
-    text-align:center;
+    padding: 15px;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-]
-
-
+.head{
+    background-color: goldenrod;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding-top: 1px solid #eee;
 }
