@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "chrome",
+            "type": "msedge",
             "request": "launch",
             "name": "Open addtocart.html",
             "file": "c:\\Users\\lenovo\\Links\\my_website\\addtocart.html"
